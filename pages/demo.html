@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .container{
+        height: 100vh;
+        width: 1200px;
+        margin: auto;
+        position: relative;
+        background-color: gray;
+    }
+    label{
+        display: block;
+        margin-bottom: 10px;
+    }
+    form{
+        width: 450px;
+        position: absolute;
+        left: 50%;
+        transform: translatex(-50%);
+        padding: 8px;
+    }
+    input{
+        width: 100%;
+        outline: none;
+        border-bottom: 1px solid #ccc;
+        font-size: 22px;
+        margin-bottom: 20px;
+        padding: 8px 16px;
+    }
+    .btn{
+        display: block;
+        width: 100%;
+        color: white;
+        background-color: red;
+        cursor: pointer;
+    }
+</style>
+<body>
+    <div class="container">
+        <form action="#">
+            <label for="">Your name: </label>
+            <input type="text">
+            <label for="">Email</label>
+            <input type="text" required placeholder="example@gmail.com">
+            <label for="">Contact Number</label>
+            <input type="text">
+            <input type="button" value="login" class="btn">
+        </form>
+    </div>
+</body>
+</html>

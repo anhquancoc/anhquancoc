@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: auto;
+    }
+    #container{
+        width: 960px;
+        height: 1500px;
+        margin: 0 auto;
+    }
+    header{
+        width: 100%;
+        height: 300px;
+        position: relative;
+    }
+    header .company-infor{
+        width: 300px;
+        height: 150px;
+        position: absolute;
+        bottom: 0px;
+        left: 15px;
+    }
+    header .company-infor>h1{
+        margin: 0;
+        padding: 0;
+        font-variant: small-caps;
+        color: white;
+        font-size: 35px;
+        border-bottom: 1px dotted orange;
+        text-shadow: 0 0 5px orangered;
+    }
+    header .company-infor>h3{
+        padding: 0;
+        margin: 0;
+        color: orangered;
+        font-variant: small-caps;
+        letter-spacing: 3px;
+
+    }
+    header .top-right{
+        width: 300px;
+        height: 40px;
+        background-color: orangered;
+        position: absolute;
+        top: 0;
+        right: 0;
+        border-bottom-left-radius: 30px;
+        text-align: center;
+        line-height: 40px;
+    }
+    header .top-right>a{
+        font-variant: small-caps;
+        text-decoration: none;
+        color: white;
+        padding: 5px;
+    }
+    header .top-right>a:hover{
+        text-decoration: underline;
+        font-weight: bold;
+    }
+    nav{
+        width: 100%;
+        height: 50px;
+
+    }
+    .menu{
+        background-color: orange;
+        text-align: center;
+        font-variant: small-caps;
+    }
+    .menu ul{
+        background-color: orange;
+        list-style-type: none;
+        width: 100%;
+        text-align: center;
+        padding: 0;
+    }
+    .menu >ul>li{
+        display: inline-block;
+        line-height: 50px;
+        width: 18%;
+    }
+    .menu>ul>li>a{
+        color: white;
+        text-decoration: none;
+        line-height: 50px;
+        margin: 0 10px;
+        display: block;
+    }
+    .menu>ul>li>a:hover{
+        color: yellow;
+        background-color: orangered;
+    }
+    .menu li{
+        position: relative;
+    }
+    .sub-menu{
+        position: absolute;
+        background-color: orangered;
+        width: 70%;
+        list-style-type: none;
+        display: none;
+    }
+    .menu li:hover .sub-menu{
+        display: block;
+    }
+    article{
+        width: 70%;
+        height: 500px;
+        background-color: wheat;
+        float: left;
+    }
+    article h1{
+        text-align: center;
+    }
+    aside{
+        width: 30%;
+        height: 500px;
+        background-color: white;
+        float: left;
+    }
+    footer{
+        clear: both;
+        width: 100%;
+        height: 150px;
+        background-color: yellow;
+        line-height: 150px;
+        text-align: center;
+        font-size: 26px;
+        font-variant: small-caps;
+    }
+    ul.vmenu{
+        list-style-type: none;
+        padding: 0;
+        margin: 5px;
+        box-shadow: 0 0 5px orangered;
+        border-radius: 5px;
+    }
+    ul.vmenu>li{
+        border-bottom: 1px dotted orangered;
+    }
+    ul.vmenu>li>a{
+        text-decoration: none;
+        line-height: 30px;
+        font-variant: small-caps;
+        color: orangered;
+        padding-left: 20px;
+        font-size: larger;
+    }
+    ul.vmenu>li>a:hover{
+        text-decoration: underline;
+        color: red;
+        background-color: orange;
+        display: block;
+    }
+    area{
+        width: 100%;
+        height: 300px;
+    }
+    lor > h1{
+        text-align: center;
+    }
+</style>
+<body>
+    <div id="container">
+        <header>
+            <img src="/img/KS TK đồ họa - CĐTH FPT Polytechnic banner1.jpg" alt="" >
+            <div class="top-right">
+                <a href="/assms/gd2/dangnhap.html">Dang nhap</a>
+                <a href="/assms/gd2/dangky.html">Dang ky</a>
+                <a href="/assms/gd2/doimatkhau.html">Doi mat khau</a>
+            </div>
+            <div class="company-infor">
+                <h1>
+                    FPT Polytechnic
+                </h1>
+                <h3>Thuc hoc thuc nghiem</h3>
+            </div>
+        </header>
+        <nav class="menu">
+            <ul>
+                <li><a href="">Trang chu    |</a></li>
+                <li><a href="/assms/gd2/index.html">Gioi thieu   |</a></li>
+                <li>
+                    <a href="">Lien he  |</a>
+                    <ul class="sub-menu">
+                        <li><a href=""></a>Cơ sở Hà Nội</li>
+                        <li><a href=""></a>Cơ sở Hồ Chí Minh</li>
+                        <li><a href=""></a>Cơ sở Cần Thơ</li>
+                        <li><a href=""></a>Cơ sở Thái Nguyên</li>
+                        <li><a href=""></a>Cơ sở Đà Nẵng</li>
+                    </ul>
+                </li>
+                <li><a href="/assms/gd2/hoidap.html">Hoi dap  |</a></li>
+                <li><a href="">Gop y    |</a></li>
+            </ul>
+        </nav>
+        <article>
+            <img src="/img/1640x856.png" width="100%" alt="" style="margin-bottom: 0;">
+            <img src="/img/1200x600-1.png" alt="" width="669" height="146" style="margin-top: 0;">
+        </article>
+        <aside>
+            <ul class="vmenu"> 
+                <li><a href=""> Ngành đào tạo</a></li>
+                <li><a href=""> Tin mới nhất</a></li>
+                <li><a href=""> Thông tin tuyển sinh</a></li>
+                <li><a href=""> Hoạt động sinh viên</a></li>
+                <li><a href=""> HOT: Kì thi THPT</a></li>
+                <img src="/img/absssc.png" width="279" height="258" alt="">
+            </ul>
+        </aside>
+        <lor>
+            <h1>
+                Một số hình ảnh về trường
+            </h1>
+            <div class="imgs">
+                <img src="/img/FPT_Polytechnic_vtc8.jpeg" alt="" width="100%">
+                <p style="text-align: center;">Ảnh kỉ niệm học sinh trường</p>
+                        <img src="/img/download.jpg" alt="" width="50%">
+                        <img src="/img/cao-dang-nghe-FPT.jpg" alt="">
+            </div>
+        </lor>
+        <div class="adress" style="text-align: center;">
+            <p style="text-align: center; font-weight: bold; font-size: larger;">Địa chỉ trường cao đẳng thực hành nơi anh Quân học</p>
+            <iframe  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3918.4643661219434!2d106.62874631458975!3d10.852241992270105!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x317529b6a2b351a5%3A0x11690ada8c36f9bc!2zVHLGsOG7nW5nIENhbyDEkeG6s25nIFRo4buxYyBow6BuaCBGUFQgUG9seXRlY2huaWMgVFAuSENNIChDUzMp!5e0!3m2!1svi!2s!4v1676510911139!5m2!1svi!2s" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <footer>
+            FPT Polytechnic HCM
+        </footer>
+        <script src="https://uhchat.net/code.php?f=1c1288"></script>
+    </div>
+</body>
+
+</html>

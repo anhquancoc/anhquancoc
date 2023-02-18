@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-variant: small-caps;
+    }
+
+    label {
+        display: block;
+        font-weight: bold;
+        margin: 5px;
+
+    }
+
+    textarea {
+        display: block;
+        width: 98%;
+    }
+
+    button {
+        padding: 8px 30px;
+        border: none;
+        outline: none;
+        border-radius: 20px;
+        font-weight: bold;
+        background-color: white;
+        color: orangered;
+        box-shadow: inset 0 0 20px blue;
+    }
+
+    button:hover {
+        color: darkgrey;
+        box-shadow: inset 0 0 20px gray;
+    }
+
+    .control {
+        width: 98%;
+        outline: none;
+        padding: 5px;
+        border: 1px solid gray;
+    }
+
+    .hobby {
+        margin: 10px;
+    }
+    .diem {
+        width: 98%;
+        border: 1px solid red;
+        color: black;
+        border-radius: 5px;
+        background-color: yellow;
+        height: 20px;
+    }
+    fieldset{
+        width: 98%;
+    }
+    legend{
+        font-weight: bold;
+    }
+</style>
+
+<body>
+    <div>
+        <form action="">
+            <label for="">Họ và tên</label>
+            <input type="text" class="control">
+            <fieldset>
+                <legend>Giới tính</legend>
+                <input type="radio" class="hobby">Nam
+                <input type="radio" class="hobby">Nữ
+            </fieldset>
+            <label for="">Ngày sinh</label>
+            <input type="date" class="control">
+            <label for="">Điểm</label>
+            <input type="number" class="diem">
+            <label for="">Nghề nghiệp</label>
+            <select name="" id="" class="control">
+                <option value="">Bán cá</option>
+                <option value="">Chăn rau</option>
+                <option value="">Bán hoa</option>
+            </select>
+            <fieldset>
+                <legend>Sở thích</legend>
+                <input type="checkbox" class="hobby">Thể thao
+                <input type="checkbox" class="hobby">Du lịch
+                <input type="checkbox" class="hobby"> Âm nhạc
+                <input type="checkbox" class="hobby">Ẩm thực
+            </fieldset>
+            <label for="">Ghi chú</label>
+            <textarea name="" id="" cols="30" rows="5"></textarea>
+            <br>
+            <hr width="98%">
+            <br>
+            <button>Đăng ký</button>
+            <button>Nhập lại</button>
+        </form>
+    </div>
+</body>
+
+</html>
