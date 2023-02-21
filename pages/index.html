@@ -17,6 +17,7 @@
         width: 960px;
         height: 1500px;
         margin: 0 auto;
+        font-family: Arial, Helvetica, sans-serif;
     }
     header{
         width: 100%;
@@ -33,7 +34,6 @@
     header .company-infor>h1{
         margin: 0;
         padding: 0;
-        font-variant: small-caps;
         color: white;
         font-size: 35px;
         border-bottom: 1px dotted orange;
@@ -167,18 +167,24 @@
         width: 100%;
         height: 300px;
     }
-    lor > h1{
+    .phan3>.doitac{
+        float: left;
+        margin: 15px;
+    }
+    .phan3>h2{
         text-align: center;
+        margin-top: 20px;
+        border-bottom: 1px solid orangered;
     }
 </style>
 <body>
     <div id="container">
         <header>
-            <img src="/img/KS TK đồ họa - CĐTH FPT Polytechnic banner1.jpg" alt="" >
+            <img src="/img/KS TK đồ họa - CĐTH FPT Polytechnic banner1.jpg" alt=""  >
             <div class="top-right">
-                <a href="/assms/gd2/dangnhap.html">Dang nhap</a>
-                <a href="/assms/gd2/dangky.html">Dang ky</a>
-                <a href="/assms/gd2/doimatkhau.html">Doi mat khau</a>
+                <a href="/pages/dangnhap.html">Dang nhap</a>
+                <a href="/pages/dangky.html">Dang ky</a>
+                <a href="/pages/doimatkhau.html">Doi mat khau</a>
             </div>
             <div class="company-infor">
                 <h1>
@@ -189,8 +195,8 @@
         </header>
         <nav class="menu">
             <ul>
-                <li><a href="">Trang chu    |</a></li>
-                <li><a href="/assms/gd2/index.html">Gioi thieu   |</a></li>
+                <li><a href="/pages/index.html">Trang chu    |</a></li>
+                <li><a href="/pages/gioithieu.html">Gioi thieu   |</a></li>
                 <li>
                     <a href="">Lien he  |</a>
                     <ul class="sub-menu">
@@ -201,7 +207,7 @@
                         <li><a href=""></a>Cơ sở Đà Nẵng</li>
                     </ul>
                 </li>
-                <li><a href="/assms/gd2/hoidap.html">Hoi dap  |</a></li>
+                <li><a href="/pages/hoidap.html">Hoi dap  |</a></li>
                 <li><a href="">Gop y    |</a></li>
             </ul>
         </nav>
@@ -220,7 +226,7 @@
             </ul>
         </aside>
         <lor>
-            <h1>
+            <h1 style="text-align: center; border-bottom:1px solid orangered ; margin: 20px;">
                 Một số hình ảnh về trường
             </h1>
             <div class="imgs">
@@ -230,6 +236,23 @@
                         <img src="/img/cao-dang-nghe-FPT.jpg" alt="">
             </div>
         </lor>
+        <div class="phan3">
+            <br>
+            <h2>Đối tác</h2>
+            <br>
+            <div class="doitac" >
+                <img src="/img/Contemi-e1503388164850.png" alt="">
+            </div>
+            <div class="doitac">
+                <img src="/img/fopt.png" alt="">
+            </div>
+            <div class="doitac">
+                <img src="/img/Vtech-e1503388392789.png" alt="">
+            </div><div class="doitac">
+                <img src="/img/Logo-Nguyen-Kim-e1503388088833.jpg" alt="">
+            </div>
+        </div>
+        <div style="clear: both;"></div>
         <div class="adress" style="text-align: center;">
             <p style="text-align: center; font-weight: bold; font-size: larger;">Địa chỉ trường cao đẳng thực hành nơi anh Quân học</p>
             <iframe  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3918.4643661219434!2d106.62874631458975!3d10.852241992270105!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x317529b6a2b351a5%3A0x11690ada8c36f9bc!2zVHLGsOG7nW5nIENhbyDEkeG6s25nIFRo4buxYyBow6BuaCBGUFQgUG9seXRlY2huaWMgVFAuSENNIChDUzMp!5e0!3m2!1svi!2s!4v1676510911139!5m2!1svi!2s" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>

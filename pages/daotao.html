@@ -17,6 +17,7 @@
     #container {
         width: 960px;
         margin: 0 auto;
+        font-family: Arial, Helvetica, sans-serif;
     }
 
     header {
@@ -131,7 +132,7 @@
     }
 
     #myBtn {
-        position:absolute;
+        position: absolute;
         width: 200px;
         font-size: 18px;
         padding: 10px;
@@ -142,13 +143,16 @@
         top: 250px;
         right: 210px;
     }
-    #myBtn a{
+
+    #myBtn a {
         color: #ddd;
         text-decoration: none;
     }
-    #myBtn a:hover{
+
+    #myBtn a:hover {
         color: black;
-    } 
+    }
+
     article h1 {
         text-align: center;
     }
@@ -204,15 +208,48 @@
         border: 1px solid orangered;
         padding-top: 5px;
     }
+
     #container table {
         width: 100%;
         height: 500px;
     }
-    #container>table>tr{
+
+    #container>table>tr {
         height: 250px;
     }
-    #container table>tr>td{
+
+    #container table>tr>td {
         width: 33%;
+    }
+
+    .nganh1>.nganh2>img {
+        width: 200px;
+        margin-right: 30px;
+    }
+
+    .nganh1>.nganh2 {
+        float: left;
+    }
+
+    .phan3>h3 {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .phan3>h3:hover {
+        color: orangered;
+    }
+
+    .nganh1>.nganh2>p {
+        font-size: 13px;
+    }
+
+    .phan3>.nganh1>.nganh2>p:hover {
+        color: orangered;
+    }
+
+    .phan3>.nganh1>.nganh2>img:hover {
+        opacity: 0.5;
     }
 </style>
 
@@ -221,15 +258,15 @@
         <header>
             <img src="/img/xbanner-trang-lien-he-moi-2.jpg.pagespeed.ic_.fqvwhe7pcx-2.webp" alt="" width="100%">
             <div class="top-right">
-                <a href="/assms/gd2/dangnhap.html">Dang nhap</a>
-                <a href="/assms/gd2/dangky.html">Dang ky</a>
-                <a href="/assms/gd2/doimatkhau.html">Doi mat khau</a>
+                <a href="/pages/dangnhap.html">Dang nhap</a>
+                <a href="/pages/dangky.html">Dang ky</a>
+                <a href="/pages/doimatkhau.html">Doi mat khau</a>
             </div>
         </header>
         <nav class="menu">
             <ul>
                 <li><a href="/index.html">Trang chu |</a></li>
-                <li><a href="/assms/gd2/index.html">Gioi thieu |</a></li>
+                <li><a href="/pages/gioithieu.html">Gioi thieu |</a></li>
                 <li>
                     <a href="">Lien he |</a>
                     <ul class="sub-menu">
@@ -240,7 +277,7 @@
                         <li><a href=""></a>Cơ sở Đà Nẵng</li>
                     </ul>
                 </li>
-                <li><a href="/assms/gd2/hoidap.html">Hoi dap |</a></li>
+                <li><a href="/pages/hoidap.html">Hoi dap |</a></li>
                 <li><a href="">Gop y |</a></li>
             </ul>
         </nav>
@@ -265,11 +302,99 @@
                 </marquee>
             </div>
         </div>
-        <footer>
-            FPT Polytechnic HCM
-        </footer>
-        <script src="https://uhchat.net/code.php?f=1c1288"></script>
-    </div>
+        <div class="phan3">
+            <h1 style="text-align: center;">Chương trình đào tạo</h1>
+            <h3>Ngành: NGHÀNH KHÁC</h3>
+            <div class="nganh1">
+                <div class="nganh2">
+                    <img src="/img/TKĐH-1-580x386.png" alt="">
+                    <p>THIẾT KẾ ĐỒ HỌA</p>
+                </div>
+                <div class="nganh2">
+                    <img src="/img/HDDL-1-580x386.png" alt="">
+                    <p>HƯỚNG DẪN DU LỊCH</p>
+                </div>
+                <div class="nganh2">
+                    <img src="/img/4Banner-580x386.png" alt="">
+                    <p>CÔNG NGHỆ KỸ THUẬT CƠ KHÍ</p>
+                </div>
+            </div>
+            <div style="clear: both;"></div>
+            <h3>Ngành: QUẢN TRỊ KINH DOANH</h3>
+            <div class="nganh1">
+                <div class="nganh2">
+                    <img src="/img/DigitalMarketing1200x628-580x386.png" alt="">
+                    <p>DIGITAL MARKETING</p>
+                </div>
+                <div class="nganh2">
+                    <img src="/img/Marketing_Sale1200x628-580x386.png" alt="">
+                    <p>MARKETING & SALES</p>
+                </div>
+                <div class="nganh2">
+                    <img src="/img/PR-TCSK1200x628-580x386.png" alt="">
+                    <p>QUAN HỆ CÔNG CHÚNG (PR) <br>& TỔ CHỨC SỰ KIỆN</p>
+                </div>
+                <div class="nganh2">
+                    <img src="/img/QTKS-1-580x386.png" alt="">
+                    <p>QUẢN TRỊ KHÁCH SẠN</p>
+                </div>
+                <div style="clear: both;"></div>
+                <div class="nganh2">
+                    <img src="/img/QTNH-1-580x386.png" alt="">
+                    <p>QUẢN TRỊ NHÀ HÀNG</p>
+                </div>
+                <div class="nganh2">
+                    <img src="/img/Logistic1200x628-2-580x386.png" alt="">
+                    <p>LOGISTICS</p>
+                </div>
+                <div style="clear: both;"></div>
+                <br>
+                <h3>Ngành: CÔNG NGHỆ THÔNG TIN</h3>
+                <br>
+                <div class="nganh2">
+                    <img src="/img/PhatTrienPhanMem1200x628-580x386.png" alt="">
+                    <p>PHÁT TRIỂN PHẦN MỀM</p>
+                </div>
+                <div class="nganh2">
+                    <img src="/img/LapTrinhWebsite1200x628-580x386.png" alt="">
+                    <p>LẬP TRÌNH WEB</p>
+                </div>
+                <div class="nganh2">
+                    <img src="/img/LapTrinhMoBile1200x628-580x386.png" alt="">
+                    <p>LẬP TRÌNH MOBILE</p>
+                </div>
+                <div class="nganh2">
+                    <img src="/img/XuLyDuLieu1200x628-580x386.png" alt="">
+                    <p>XỬ LÝ DỮ LIỆU</p>
+                </div>
+                <div style="clear: both;"></div>
+                <br>
+                <div class="nganh2">
+                    <img src="/img/UngDungPhanMem1200x628-580x386.png" alt="">
+                    <p>ỨNG DỤNG PHẦN MỀM</p>
+                </div>
+                <div style="clear: both;"></div>
+                <br>
+                <h3>Ngành: CÔNG NGHỆ KỸ THUẬT ĐIỀU KHIỂN & TỰ ĐỘNG HOÁ</h3>
+                <br>
+                <div class="nganh2">
+                    <img src="/img/2Banner-580x386.png" alt="">
+                    <p>ĐIỆN CÔNG NGHIỆP</p>
+                </div>
+                <div class="nganh2">
+                    <img src="/img/1Banner-580x386.png" alt="">
+                    <p>CÔNG NGHỆ KỸ THUẬT ĐIỆN, ĐIỆN <br> TỬ</p>
+                </div>
+                <div class="nganh2">
+                    <img src="/img/3Banner-2-580x386.png" alt="">
+                    <p>CÔNG NGHỆ KỸ THUẬT ĐIỀU KHIỂN <br> VÀ TỰ ĐỘNG HOÁ</p>
+                </div>
+                <br>
+                <footer>
+                    FPT Polytechnic HCM
+                </footer>
+                <script src="https://uhchat.net/code.php?f=1c1288"></script>
+            </div>
 </body>
 
 </html>
